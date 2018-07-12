@@ -1,0 +1,38 @@
+@model BankAccounts.Models.Users
+
+<h2>Enter your information</h2>
+<form asp-controller="Users" asp-action="Register" method="post">
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName" class="form-control"/>
+    <span asp-validation-for="FirstName" class="p-3 mb-2 bg-danger text-white"></span>
+    <br>
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName" class="form-control"/>
+    <span asp-validation-for="LastName" class="p-3 mb-2 bg-warning text-white"></span>
+    <br>
+    <label asp-for="Email"></label>
+    <input asp-for="Email" class="form-control"/>
+    <span asp-validation-for="Email" class="text-danger"></span>
+    @if (ViewBag.Message != null)
+    {
+    <p class="text-danger">@ViewBag.Message </p>
+    }
+    <br>
+    <label asp-for="Password"></label>
+    <input asp-for="Password" class="form-control"/>
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <br>
+    <label asp-for="Confirm"></label>
+    <input asp-for="Confirm" class="form-control"/>
+    <span asp-validation-for="Confirm" class="text-danger"></span>
+    <br>
+    <label asp-for="Balance"></label>
+    <input asp-for="Balance" class="form-control"/>
+    <span asp-validation-for="Balance" class="text-danger"></span>
+    <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <br>
+    <br>
+    <a href="/login">Already Registered?</a>
+</form>
+

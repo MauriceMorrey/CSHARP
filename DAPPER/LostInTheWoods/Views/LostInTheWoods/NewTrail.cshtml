@@ -1,0 +1,30 @@
+@model LostInTheWoods.Models.Trail
+
+
+<h3>Add a new trail</h3> <a href="/" class="btn btn-primary">Go Home</a>
+<form asp-action="Add"  method="post">
+    <span asp-validations-for="TrailName" class="text-danger"></span>
+    <label asp-for="TrailName">Name</label>
+    <input asp-for="TrailName" class="form-control">
+    <br>
+    <span asp-validations-for="Description" class="text-danger"></span>
+    <label asp-for="Description">Description</label>
+    <input asp-for="Description" class="form-control">
+    <br>
+    <span asp-validations-for="TrailLength" class="text-danger"></span>
+    <label asp-for="TrailLength">Trail Length</label>
+    <input asp-for="TrailLength" class="form-control">
+    <br>
+    <span asp-validations-for="ElevationChange" class="text-danger"></span>
+    <label asp-for="ElevationChange">Elevation Change</label>
+    <input asp-for="ElevationChange" class="form-control">
+    <br>
+    <span asp-validations-for="Longitude" class="text-danger"></span>
+    <Label asp-for="Longitude">Longitude</label>
+    <input asp-for="Longitude" class="form-control">
+    <span asp-validations-for="Latitude" class="text-danger"></span>
+    <label asp-for="Latitude"> Latitude</label>
+    <input asp-for="Latitude" class="form-control">
+    <br>
+    <input type="submit" class="btn btn-primary" value="Create Record!">
+</form>

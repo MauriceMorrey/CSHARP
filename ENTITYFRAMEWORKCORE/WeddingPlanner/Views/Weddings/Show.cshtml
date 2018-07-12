@@ -1,0 +1,23 @@
+@model WeddingPlanner.Models.Wedders
+
+<h2>Wedding Information for: </h2>
+<hr>
+<p class="text-right">
+    <a href="/dashboard" class="btn btn-primary">Dashboard</a>
+    <a href="/logout" class="btn btn-primary">Log Out</a>
+</p>
+
+<h3>@ViewBag.Weddings.WedderOne and @ViewBag.Weddings.WedderTwo's Wedding'</h3>
+<h5> Date: @ViewBag.Weddings.Date </h5>
+<h5> Wedding Address: @ViewBag.Weddings.WeddingAddress</h5>        
+<h5> Guests:</h5>
+<ul>
+    @foreach(var visitor in ViewBag.Weddings.Visitors)
+    {
+        <li>@visitor.Users.FirstName @visitor.Users.LastName </li>
+    }
+</ul>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.410829860605!2d35.33464931523669!3d-1.5219366363590727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182cf7cda7bff40f%3A0xd8cd2c4993a8070d!2sMasai+Mara+National+Reserve!5e0!3m2!1sen!2sus!4v1526422272254" width="1200" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+
+

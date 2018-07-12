@@ -1,0 +1,11 @@
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\bin\Debug\netcoreapp2.0\RESTauranter.deps.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\bin\Debug\netcoreapp2.0\RESTauranter.runtimeconfig.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\bin\Debug\netcoreapp2.0\RESTauranter.runtimeconfig.dev.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\bin\Debug\netcoreapp2.0\RESTauranter.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\bin\Debug\netcoreapp2.0\RESTauranter.pdb
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\obj\Debug\netcoreapp2.0\RESTauranter.csproj.CoreCompileInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\obj\Debug\netcoreapp2.0\RESTauranter.AssemblyInfoInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\obj\Debug\netcoreapp2.0\RESTauranter.AssemblyInfo.cs
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\obj\Debug\netcoreapp2.0\RESTauranter.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\obj\Debug\netcoreapp2.0\RESTauranter.pdb
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\RESTauranter\obj\Debug\netcoreapp2.0\RESTauranter.csprojResolveAssemblyReference.cache

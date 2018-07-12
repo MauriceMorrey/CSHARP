@@ -1,0 +1,30 @@
+@model RESTauranter.Models.RegisterViewModels
+
+<h1>Write a new Review: </h1>
+
+<form asp-controller="Reviews" asp-action="AddReview" method="post">
+    <span asp-validation-for="ReviewerName" class="text-danger"></span>
+    <label asp-for="ReviewerName">Reviewer Name:</label>
+    <input asp-for="ReviewerName" class="form-control" />
+    <br>
+    <span asp-validation-for="RestaurantName" class="text-danger"></span>
+    <label asp-for="RestaurantName">Restaurant Name:</label>
+    <input asp-for="RestaurantName" class="form-control" />
+    <br>
+    <span asp-validation-for="Review" class="text-danger"></span>
+    <label asp-for="Review">Review:</label>
+    <input asp-for="Review" class="form-control" />
+    <br>
+    <span asp-validation-for="DateOfVisit" class="text-danger"></span>
+    <label asp-for="DateOfVisit">Date Of Visit: </label>
+    <input asp-for="DateOfVisit" class="form-control" />
+    <br>
+    <span asp-validation-for="Stars" class="text-danger"></span>
+    <label asp-for="Stars">Stars:</label>
+    <input asp-for="Stars" class="form-control" min="1" max="5" />
+    <br>
+    <button type="submit" class="btn btn-primary"> Submit </button>
+    <br>
+</form>
+<br>
+<a href="/Reviews" class="btn btn-primary">All Reviews</a>

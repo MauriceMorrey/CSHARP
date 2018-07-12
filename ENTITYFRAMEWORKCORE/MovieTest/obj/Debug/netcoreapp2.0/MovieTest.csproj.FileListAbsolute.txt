@@ -1,0 +1,11 @@
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\bin\Debug\netcoreapp2.0\MovieTest.deps.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\bin\Debug\netcoreapp2.0\MovieTest.runtimeconfig.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\bin\Debug\netcoreapp2.0\MovieTest.runtimeconfig.dev.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\bin\Debug\netcoreapp2.0\MovieTest.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\bin\Debug\netcoreapp2.0\MovieTest.pdb
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\obj\Debug\netcoreapp2.0\MovieTest.csprojResolveAssemblyReference.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\obj\Debug\netcoreapp2.0\MovieTest.csproj.CoreCompileInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\obj\Debug\netcoreapp2.0\MovieTest.AssemblyInfoInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\obj\Debug\netcoreapp2.0\MovieTest.AssemblyInfo.cs
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\obj\Debug\netcoreapp2.0\MovieTest.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\MovieTest\obj\Debug\netcoreapp2.0\MovieTest.pdb

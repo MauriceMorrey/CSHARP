@@ -1,0 +1,11 @@
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\bin\Debug\netcoreapp2.0\TheDojoLeague.deps.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\bin\Debug\netcoreapp2.0\TheDojoLeague.runtimeconfig.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\bin\Debug\netcoreapp2.0\TheDojoLeague.runtimeconfig.dev.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\bin\Debug\netcoreapp2.0\TheDojoLeague.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\bin\Debug\netcoreapp2.0\TheDojoLeague.pdb
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\obj\Debug\netcoreapp2.0\TheDojoLeague.csproj.CoreCompileInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\obj\Debug\netcoreapp2.0\TheDojoLeague.AssemblyInfoInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\obj\Debug\netcoreapp2.0\TheDojoLeague.AssemblyInfo.cs
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\obj\Debug\netcoreapp2.0\TheDojoLeague.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\obj\Debug\netcoreapp2.0\TheDojoLeague.pdb
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\TheDojoLeague\obj\Debug\netcoreapp2.0\TheDojoLeague.csprojResolveAssemblyReference.cache

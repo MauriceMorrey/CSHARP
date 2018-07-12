@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Quoting Dojo";
+}
+<h2>@ViewData["Title"]</h2> 
+@foreach(var item in ViewBag.Info)
+{
+<h4>Name: @item["name"]</h4>
+<em>Quote: @item["quotes"]</em>
+// <em>: @ViewBag.Info[0]["quotes"]</em>
+
+}
+
+
+

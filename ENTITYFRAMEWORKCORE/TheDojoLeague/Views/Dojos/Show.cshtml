@@ -1,0 +1,56 @@
+@model TheDojoLeague.Models.Dojos
+
+<br>
+<p class="text-right">
+    <a href="/dojo" class="btn btn-primary">Dojos</a>
+    <a href="/ninja" class="btn btn-primary">Ninjas</a>    
+</p>
+
+<h1>Welcome to the Dojo Page.</h1>
+
+<h3>@ViewBag.Dojos.DojoName Dojo!!</h3>
+<h4>Dojo Location: @ViewBag.Dojos.DojoLocation</h4>
+<h4> Additional Dojo Information: @ViewBag.Dojos.AdditionalDojoInformation</h4>
+
+<h2>Current Members</h2>
+<table class="table table-striped table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Ninja</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach(var ninja in ViewBag.DojoMembers)
+            {
+                <tr>
+                    <td><a href="/Ninjas/@ninja.NinjaId">@ninja.NinjaName</a></td>
+                    <td><a href="/Banish/@ViewBag.Dojos.DojoId/@ninja.NinjaId">Banish!</a></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<br>
+<h2>Rogue Ninjas</h2>
+<table class="table table-striped table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Ninja</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach(var ninja in ViewBag.RogueNinjas)
+            {
+                <tr>
+                    <td><a href="/Ninjas/@ninja.NinjaId">@ninja.NinjaName</a></td>
+                    <td><a href="/Recruit/@ViewBag.Dojos.DojoId/@ninja.NinjaId">Recruit</a></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+

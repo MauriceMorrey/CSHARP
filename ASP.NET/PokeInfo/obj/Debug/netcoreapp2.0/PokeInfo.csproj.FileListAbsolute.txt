@@ -1,0 +1,10 @@
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\bin\Debug\netcoreapp2.0\PokeInfo.deps.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\bin\Debug\netcoreapp2.0\PokeInfo.runtimeconfig.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\bin\Debug\netcoreapp2.0\PokeInfo.runtimeconfig.dev.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\bin\Debug\netcoreapp2.0\PokeInfo.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\bin\Debug\netcoreapp2.0\PokeInfo.pdb
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\obj\Debug\netcoreapp2.0\PokeInfo.csproj.CoreCompileInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\obj\Debug\netcoreapp2.0\PokeInfo.AssemblyInfoInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\obj\Debug\netcoreapp2.0\PokeInfo.AssemblyInfo.cs
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\obj\Debug\netcoreapp2.0\PokeInfo.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ASP.NET\PokeInfo\obj\Debug\netcoreapp2.0\PokeInfo.pdb

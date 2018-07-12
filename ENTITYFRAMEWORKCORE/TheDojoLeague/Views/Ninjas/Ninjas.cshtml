@@ -1,0 +1,75 @@
+@model TheDojoLeague.Models.Ninjas
+
+<br>
+<p class="text-right">
+    <a href="/dojo" class="btn btn-primary">Dojos</a>
+</p>
+
+<p class="text-left">
+    <h2>Registered Ninjas</h2>
+    <table class="table table-striped table-dark">
+        <thead>
+            <th scope="col">Ninja Name</th>
+            <th scope="col">Home Dojo</th>               
+        </thead>
+        <tbody>
+            <tr>
+                @{
+                    foreach(var ninja in ViewBag.Ninjas)
+                    {
+                        <tr>
+                            <td><a href="/Ninjas/@ninja.NinjaId">@ninja.NinjaName</a></td>
+                            <td>
+                                   @if(ninja.Dojos.DojoId == null)
+                                    {
+                                        <p>Homeless Ninja</p>
+                                    }
+                                    else
+                                    {
+                                        <a href="/Dojos/@ninja.Dojos.DojoId">@ninja.Dojos.DojoName</a>
+                                    }
+                            
+                            </td>
+                        </tr>
+                    }
+                }
+            </tr>
+        </tbody>
+    </table>
+</p>
+<p class="text-right">
+    <br>
+    <h2>Register a Ninja</h2>
+    <br>
+    <form asp-controller="Ninjas" asp-action="RegisterNinja" method="post">
+        <label asp-for="NinjaName"></label>
+        <input asp-for="NinjaName" class="form-control"/>
+        <span asp-validation-for="NinjaName" class="p-3 mb-2 bg-danger text-white"></span>
+        <br>
+        <label asp-for="NinjaingLevel"></label>
+        <input asp-for="NinjaingLevel" class="form-control"/>
+        <span asp-validation-for="NinjaingLevel" class="p-3 mb-2 bg-warning text-white"></span>
+        <br>
+        <label asp-for="Dojos"></label>:
+        <select asp-for="DojoId">
+            <option value="0">Rogue</option>
+            @{
+                foreach(var dojo in ViewBag.Dojos)
+                {
+                    <option value=@dojo.DojoId>@dojo.DojoName</option>
+                }
+            }
+        </select>
+        <br>
+        <span asp-validation-for="DojoId" class="text-danger"></span><br>
+        <br>
+        <label asp-for="OptionalDescription"></label>
+        <!-- <input asp-for="OptionalDescription" class="form-control"/> -->
+        <textarea asp-for="OptionalDescription" class="form-control" cols="30" rows="10"></textarea>
+        <span asp-validation-for="OptionalDescription" class="text-danger"></span>
+        <br>
+        <button type="submit" class="btn btn-primary">Add</button>
+        <br>
+    </form>
+    <br>
+</p>

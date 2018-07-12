@@ -1,0 +1,17 @@
+@model RESTauranter.Models.Reviews
+
+<h2>Restaurant Reviews</h2>
+
+<a href="/" class="btn btn-primary">Home</a>
+
+@{ 
+    foreach(var review in ViewBag.AllReviews) 
+        {
+            <h4>Review For: @review.RestaurantName - @review.Stars Stars</h4>
+            <br>
+            <h5 class="shifted">Reviewer: @review.ReviewerName , @review.DateOfVisit</h5>
+            <br>
+            <h5 class="shift">@review.Review</h5>
+            <br>
+        } 
+}

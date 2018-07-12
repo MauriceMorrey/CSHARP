@@ -1,0 +1,21 @@
+@model TheDojoLeague.Models.Ninjas
+
+<br>
+<p class="text-right">
+    <a href="/ninja" class="btn btn-primary">Ninjas</a>
+    <a href="/dojo" class="btn btn-primary">Dojos</a>
+</p>
+
+<h1>Welcome to the Ninja Page.</h1>
+
+<h3>Name: @ViewBag.Ninjas.NinjaName</h3>
+<h4>Ninjaing Level: @ViewBag.Ninjas.NinjaingLevel</h4>
+<h4>Optional Description: @ViewBag.Ninjas.OptionalDescription</h4>
+@if(@ViewBag.Ninjas.Dojos.DojoId != 0)
+{
+    <h4>Current Dojo: <a href="/Dojos/@ViewBag.Ninjas.Dojos.DojoId">@ViewBag.Ninjas.Dojos.DojoName</a></h4>
+}
+else
+{
+    <h4>Current Dojo: Homeless Ninja</h4>
+}

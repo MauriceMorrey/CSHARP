@@ -1,0 +1,11 @@
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.deps.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.runtimeconfig.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.runtimeconfig.dev.json
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.pdb
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.csproj.CoreCompileInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.AssemblyInfoInputs.cache
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.AssemblyInfo.cs
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.dll
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.pdb
+C:\Users\mac\Desktop\DojoAssignments\C#\ENTITYFRAMEWORKCORE\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.csprojResolveAssemblyReference.cache

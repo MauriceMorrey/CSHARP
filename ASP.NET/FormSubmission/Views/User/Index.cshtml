@@ -1,0 +1,22 @@
+@model FormSubmission.Models.User
+
+<h2>Enter your information</h2>
+<form asp-controller="User" asp-action="Register" method="post">
+    <span asp-validation-for="FirstName" class="p-3 mb-2 bg-danger text-white"></span>
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName" class="form-control"/><br>
+    <span asp-validation-for="LastName" class="p-3 mb-2 bg-warning text-white"></span>
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName" class="form-control"/><br>
+    <span asp-validation-for="Age" class="text-danger"></span>
+    <label asp-for="Age"></label>
+    <input asp-for="Age" class="form-control"/><br>
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <label asp-for="Email"></label>
+    <input asp-for="Email" class="form-control"/><br>
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <label asp-for="Password"></label>
+    <input asp-for="Password" class="form-control"/><br>
+    <button type="submit" class="btn btn-primary">Create new User</button>
+</form>
+

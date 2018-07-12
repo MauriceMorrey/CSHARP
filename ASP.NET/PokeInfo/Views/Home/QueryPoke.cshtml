@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "QueryPoke";
+}
+<h2>@ViewData["Title"]</h2>
+<h2>Name: @ViewBag.PokeInfo["name"]</h2>
+<h2>Primary Type: @ViewBag.PokeInfo["types"][0]["type"]["name"]</h2>
+<h2>Height: @ViewBag.PokeInfo["height"]</h2>
+<h2>Weight: @ViewBag.PokeInfo["weight"]</h2>
